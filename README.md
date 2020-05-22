@@ -1,6 +1,7 @@
 # magento2bootstrap4
 Magento 2.3+ Bootstrap 4 starter theme
-
+This is a lightweight theme which only use bootstrap 4 css add js per per your requirement.
+Best repo to start building your website from sketch.
 
 Copy the repo to your magento 2 root directory and run the following command.
 
