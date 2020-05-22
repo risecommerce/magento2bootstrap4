@@ -1,0 +1,57 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/fkf-h.svg</argument>
+                <argument name="logo_img_width" xsi:type="number">220</argument>
+                <argument name="logo_img_height" xsi:type="number">96</argument>
+            </arguments>
+        </referenceBlock>
+<referenceBlock name="footer_links" remove="true"/>
+		<referenceBlock name="form.subscribe" remove="true"/>
+<!-- custom footer-->
+<referenceContainer name="footer-container" htmlClass="page-footer">
+    <!-- <container name="footer-wrap-social" htmlTag="div" htmlClass="fsocialtop">
+	    <container name="footer-wrap-social-inner" htmlTag="div" htmlClass="container-fluid">
+   <container name="footer-row-1" htmlTag="div" htmlClass="row footer-links-social">
+			
+				<container name="footer_col_s2" htmlTag="div" htmlClass="col-12 col-sm-12 footer-col col-md-12">
+                    <block class="Magento\Cms\Block\Block" name="footer_col_s2_inner">
+                      <arguments>
+                         <argument name="block_id" xsi:type="string">footer-shipping</argument>
+                      </arguments>
+                    </block>
+                </container>
+			</container></container></container> -->
+
+        <container name="footer-wrap" htmlTag="div" htmlClass="page-main pt-5 pb-5">
+         
+			<container name="footer-row-1" htmlTag="div" htmlClass="row is-flex footer-links">
+			 
+               
+                
+                <container name="footer_col_1" htmlTag="div" htmlClass="col-12 col-sm-12 footer-col col-md-8">
+                    <block class="Magento\Cms\Block\Block" name="footer_col_1_inner">
+                      <arguments>
+                         <argument name="block_id" xsi:type="string">cms_footer_links_2</argument>
+                      </arguments>
+                    </block>
+                </container> 
+				
+				<container name="footer_col_2" htmlTag="div" htmlClass="col-12 col-sm-12 footer-col col-md-4">
+                    <block class="Magento\Cms\Block\Block" name="footer_col_2_inner">
+                      <arguments>
+                         <argument name="block_id" xsi:type="string">cms_payment_accept
+</argument>
+                      </arguments>
+                    </block>
+                </container>
+               
+               <!--  <container name="footer_col_5" htmlTag="div" htmlClass="col-xs-12 margintop-30sm footer-col col-md-3 col-md-offset-1">
+                </container> --> 
+            </container>
+        </container>
+</referenceContainer>
+
+    </body>
+</page>

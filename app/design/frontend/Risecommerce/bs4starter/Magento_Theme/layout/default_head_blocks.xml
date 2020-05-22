@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+
+        <css src="css/bootstrap4.css"/>
+		<link rel="stylesheet" src="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" src_type="url"/>
+		<link src="//fonts.googleapis.com/css?family=Raleway:400,500i,600,600i,700" rel="stylesheet" src_type="url"/>
+    <link src="js/currencySwitcher.js"/>
+
+
+    </head>
+</page>
